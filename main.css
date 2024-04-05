@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Workbench&display=swap');
+
+
+/* font-family: "Workbench", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Rubik Scribble", system-ui; */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+header {
+ 
+width: 100%;
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    display: flex  ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 70px ;
+    border-top-right-radius: 70px ;
+    
+  
+}
+nav ul li a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+header h1 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: "Workbench", sans-serif;
+
+}
+
+nav ul {
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 25px 20px;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+section h2 
+{
+    font-family: "Workbench", sans-serif;
+    margin: 10px;
+}
+
+section p 
+{
+    width: 900px;
+    text-wrap: wrap;
+    margin: 10px;
+font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px -1px 1px #000;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.product 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+img
+{
+    width: 500px;
+    height: 300px;
+}
+
+.contact
+
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact input{
+    width: 600px;
+    height: 40px;
+}
+
+.btn
+{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover 
+{
+    background: #fff;
+    color: #8B4513;
+    letter-spacing: 1px;
+}
+
+
+.footer-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background-color: #ffffff; /* Background color for the circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    text-align: center;
+}
+.footer-logo p {
+    margin: 0; /* Remove default margin for the paragraph */
+}
+
+.footer-logo img {
+    max-width: 100%;
+    max-height: 100%;
+text-align: center;
+}
